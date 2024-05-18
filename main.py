@@ -1,9 +1,9 @@
 from fastapi import FastAPI
-from routers.address_extraction import router as street_router
-from routers.location_extraction import router as gpe_org_router
+from routers.address_extraction import router as extract_street
+from routers.location_extraction import router as extract_gpe_org
 
 app = FastAPI()
 
 # Include routers
-app.include_router(street_router)
-app.include_router(gpe_org_router)
+app.include_router(extract_street)
+app.include_router(extract_gpe_org)
