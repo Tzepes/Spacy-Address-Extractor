@@ -5,7 +5,7 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "May 15 2024 Open House all day May 15 2024 Student Safety Committee Meeting 4 : 00 PM - 5 : 00 PM May 15 2024 LCAP PAC meeting 6 : 00 PM - 7 : 30 PM 351 S. Hudson Ave., Pasadena, CA 91101","351 S. Hudson Ave., Pasadena, CA 91101",351,S. Hudson Ave.,351 S. Hudson Ave.,Pasadena,91101,CA,
 "Get In Touch! 573-883-7097 Welcome Center 66 South Main Street Ste. Genevive, MO 63670 info@visitstegen.com","66 South Main Street Ste. Genevive, MO 63670",66,South Main Street,66 South Main Street,Ste. Genevive,63670,MO,
 "Connect with FLO 425-453-4005 1150 106th Ave NE Bellevue, WA 98004","1150 106th Ave NE Bellevue, WA 98004",1150,106th Ave NE,1150 106th Ave NE,Bellevue,98004,WA,
-"PO BOX 3411 TELLURIDE, CO 81435 970.729.8080 INFO@SK4DESIGNS.COM","PO BOX 3411 TELLURIDE, CO 81435",,PO BOX 3411,PO BOX 3411,TELLURIDE,81435,CO,
+"PO BOX 3411 TELLURIDE, CO 81435 970.729.8080 INFO@SK4DESIGNS.COM","TELLURIDE, CO 81435",,,,TELLURIDE,81435,CO,
 "Reach Us Address 1610 Chiefs Way Wayne, Ne 68787 Contact 402 375-4715 info@seedsourceag.com Visit M-F: 8am 5pm","1610 Chiefs Way Wayne, Ne 68787",1610,Chiefs Way,1610 Chiefs Way,Wayne,68787,Ne,
 "Contact Mailing: PO BOX 3411 Telluride, CO 81432 Shipping: 295 Mahoney Drive, Unit K Telluride, CO 81432 970.729.8080 info@sk4designs.com","295 Mahoney Drive, Unit K Telluride, CO 81432",295,Mahoney Drive,295 Mahoney Drive,Telluride,81432,CO,
 "Dillon Music 325 Fulton Street Woodbridge, NJ 07095","325 Fulton Street Woodbridge, NJ 07095",325,Fulton Street,325 Fulton Street,Woodbridge,07095,NJ,
@@ -28,10 +28,10 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "3052, State Highway 28, Old Forge, Town of Webb, Herkimer County, NY, 13420 315-369-8733","3052, State Highway 28, Old Forge, Town of Webb, Herkimer County, NY, 13420",3052,State Highway 28,3052 State Highway 28,Old Forge,13420,NY,
 "9097 NY-30, Blue Mountain Lake, NY 12812 theadkx.org 518-352-7311 Adirondack Museum-Blue Mtn Lake Get Direction Loading...","9097 NY-30, Blue Mountain Lake, NY 12812",9097,NY-30,9097 NY-30,Blue Mountain Lake,12812,NY,
 "23, Chong Street, Akolea Plantation Estates, Hilo, Hawaii County, Hawaii, 96720, United States ekahidesign.com 8087472829","23 Chong Street, Hilo, Hawaii, 96720, United States",23,Chong Street,23 Chong Street,Hilo,96720,Hawaii,United States
-"Hemlock Semiconductor Operations 12334 Geddes Road PO Box 80 Hemlock, Michigan 48626 USA","12334 Geddes Road PO Box 80 Hemlock, Michigan 48626 USA",12334,Geddes Road,12334 Geddes Road,Hemlock,12334,Michigan,
+"Hemlock Semiconductor Operations 12334 Geddes Road PO Box 80 Hemlock, Michigan 48626 USA","12334 Geddes Road Hemlock, Michigan 48626 USA",12334,Geddes Road,12334 Geddes Road,Hemlock,12334,Michigan,
 "The Association for Investor Awareness, Inc. 2020 Pennsylvania Avenue, NW 755 Washington, DC 20006","2020 Pennsylvania Avenue, NW 755 Washington, DC 20006",2020,Pennsylvania Avenue,2020 Pennsylvania Avenue,Washington,20006,DC,
 "All documents should be mailed, emailed, or scanned to our secure confidential office. Address: SONGFEST 2024 5789 Kugler Mill Road Cincinnati, OH 45236","5789 Kugler Mill Road Cincinnati, OH 45236",5789,Kugler Mill Road,5789 Kugler Mill Road,Cincinnati,45236,OH,
-"746 Front Street P.O. Box 308 Casselton, ND 58012","746 Front Street P.O. Box 308 Casselton, ND 58012",746,Front Street,746 Front Street,Casselton,58012,ND,
+"746 Front Street P.O. Box 308 Casselton, ND 58012","746 Front Street Casselton, ND 58012",746,Front Street,746 Front Street,Casselton,58012,ND,
 "Richard Brothers Financial Advisors 50 Donald B. Dean Drive, Suite 1 South Portland, Maine 04106","50 Donald B. Dean Drive, Suite 1 South Portland, Maine 04106",50,Donald B. Dean Drive,50 Donald B. Dean Drive,South Portland,04106,Maine,
 "TechSource IT Solutions 1234 Innovation Drive, Suite 200 San Jose, CA 95131 408-555-1234 support@techsource.com","1234 Innovation Drive, Suite 200 San Jose, CA 95131",1234,Innovation Drive,1234 Innovation Drive,San Jose,95131,CA,United States
 "GreenLeaf Landscaping 9876 Spruce Avenue Boulder, CO 80302 303-555-7890 info@greenleaflandscaping.com","9876 Spruce Avenue Boulder, CO 80302",9876,Spruce Avenue,9876 Spruce Avenue,Boulder,80302,CO,United States
@@ -48,7 +48,7 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "Sunny Days Childcare 5432 Sunshine Street Orlando, FL 32801 407-555-4455 enroll@sunnydays.com","5432 Sunshine Street Orlando, FL 32801",5432,Sunshine Street,5432 Sunshine Street,Orlando,32801,FL,United States
 "Coastal Real Estate 678 Beachside Boulevard San Diego, CA 92101 619-555-6677 homes@coastalrealestate.com","678 Beachside Boulevard San Diego, CA 92101",678,Beachside Boulevard,678 Beachside Boulevard,San Diego,92101,CA,United States
 "Evergreen Forestry 12345 Timberland Drive Eugene, OR 97401 541-555-3344 info@evergreenforestry.com","12345 Timberland Drive Eugene, OR 97401",12345,Timberland Drive,12345 Timberland Drive,Eugene,97401,OR,United States
-"550 Cedar Avenue P.O. Box 550 Middlesex, NJ 08846","550 Cedar Avenue P.O. Box 550 Middlesex, NJ 08846",550,Cedar Avenue,550 Cedar Avenue,Middlesex,08846,NJ,
+"550 Cedar Avenue P.O. Box 550 Middlesex, NJ 08846","550 Cedar Avenue Middlesex, NJ 08846",550,Cedar Avenue,550 Cedar Avenue,Middlesex,08846,NJ,
 "700 Blue Ridge Terrace Columbia SC 29203","700 Blue Ridge Terrace Columbia SC 29203",700,Blue Ridge Terrace,700 Blue Ridge Terrace,Columbia,29203,SC,
 "35 Mitchell Blvd. Suite 8 San Rafael, CA 94903","35 Mitchell Blvd. Suite 8 San Rafael, CA 94903",35,Mitchell Blvd.,35 Mitchell Blvd.,San Rafael,94903,CA,
 "655 US-1, Scarborough, ME 04074","655 US-1, Scarborough, ME 04074",655,US-1,655 US-1,Scarborough,04074,ME,
@@ -63,7 +63,7 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "Garden Plain Office- 401 North Main St. Garden Plain, KS 67050","401 North Main St. Garden Plain, KS 67050",401,North Main St,401 North Main St,Garden Plain,67050,KS,
 "22444 County Road 102, Woodland, CA. 95776","22444 County Road 102, Woodland, CA. 95776",22444,County Road 102,22444 County Road 102,Woodland,95776,CA,
 "CHANNELL COMMERCIAL CORPORATION 1700 Justin Rd, Rockwall, TX 75087","1700 Justin Rd, Rockwall, TX 75087",1700,Justin Rd,1700 Justin Rd,Rockwall,75087,TX,
-"Mailing Address: P.O. Box 3294 Muncie, IN 47307","P.O. Box 3294 Muncie, IN 47307","","P.O. Box 3294","P.O. Box 3294",Muncie,47307,IN,
+"Mailing Address: P.O. Box 3294 Muncie, IN 47307","Muncie, IN 47307","","","",Muncie,47307,IN,
 "Reno 5390 Riggins Court Ste A, Reno, NV 89502","5390 Riggins Court Ste A, Reno, NV 89502",5390,Riggins Court,5390 Riggins Court Ste A,Reno,89502,NV,
 "Contact Us Phone: 617.938.6000 Email: info@platformq.com 100 Crescent Road Needham, MA 02494","100 Crescent Road Needham, MA 02494",100,Crescent Road,100 Crescent Road,Needham,02494,MA,
 "101 North Service Road East Ruston, Louisiana 71270 318-323-7587","101 North Service Road East Ruston, Louisiana 71270",101,North Service Road East,101 North Service Road East,Ruston,71270,Louisiana,
@@ -87,13 +87,13 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "6081 SUMMER AVENUE, MEMPHIS, TN 38134, United States","6081 SUMMER AVENUE, MEMPHIS, TN 38134",6081,SUMMER AVENUE,6081 SUMMER AVENUE,MEMPHIS,38134,TN,United States
 "STE 363 8 REGENCY SQ, KNOXVILLE, TN 37915, United States","8 REGENCY SQ, KNOXVILLE, TN 37915",8,"REGENCY SQ","8 REGENCY SQ",KNOXVILLE,37915,TN,United States
 "NAT TRUST CENTER 1612 REDWOOD STREET, WILMINGTON, DE 19801, United States","1612 REDWOOD STREET, WILMINGTON, DE 19801",1612,"REDWOOD STREET","1612 REDWOOD STREET",WILMINGTON,19801,DE,United States
-"PO BOX 631, GIDDINGS, TX 78942,United States","PO BOX 631, GIDDINGS, TX 78942",,,,"GIDDINGS",78942,TX,United States
+"PO BOX 631, GIDDINGS, TX 78942,United States","GIDDINGS, TX 78942",,,,"GIDDINGS",78942,TX,United States
 "9281 S MAIN ST PO BOX 284, SPRINGFIELD, TN 37172, United States","9281 S MAIN ST, SPRINGFIELD, TN 37172",9281,"S MAIN ST","9281 S MAIN ST",SPRINGFIELD,37172,TN,United States
-"PO BOX 3028 OMOHUN, NASHVILLE, TN 37210, United States","PO BOX 3028 OMOHUN, NASHVILLE, TN 37210",,,,"NASHVILLE",37210,TN,United States
+"PO BOX 3028 OMOHUN, NASHVILLE, TN 37210, United States","OMOHUN, NASHVILLE, TN 37210",,,,"NASHVILLE",37210,TN,United States
 "375 MCDONNELL BLVD-PO BOX 5840, ST. LOUIS, MO 63134,United States","375 MCDONNELL BLVD, ST. LOUIS, MO 63134",375,"MCDONNELL BLVD","375 MCDONNELL BLVD",ST. LOUIS,63134,MO,United States
-"PO BOX 724, TRUSSVILLE, AL 35173, United States","PO BOX 724, TRUSSVILLE, AL 35173",,,,"TRUSSVILLE",35173,AL,United States
-"PO BOX 903, BALDWIN, GA, 30511,, United States","PO BOX 903, BALDWIN, GA, 30511",,,,"BALDWIN",30511,GA,United States
-"PO BOX 337, NORTONVILLE, KS 66060,United States","PO BOX 337, NORTONVILLE, KS 66060",,,,"NORTONVILLE",66060,KS,United States
+"PO BOX 724, TRUSSVILLE, AL 35173, United States","TRUSSVILLE, AL 35173",,,,"TRUSSVILLE",35173,AL,United States
+"PO BOX 903, BALDWIN, GA, 30511,, United States","BALDWIN, GA, 30511",,,,"BALDWIN",30511,GA,United States
+"PO BOX 337, NORTONVILLE, KS 66060,United States","NORTONVILLE, KS 66060",,,,"NORTONVILLE",66060,KS,United States
 "FRANK RD PO BOX 24, SO POMFRET, VT, 05067,, United States","FRANK RD, SO POMFRET, VT, 05067",,"FRANK RD","FRANK RD",SO POMFRET,05067,VT,United States
 "221 JIM SULLIVAN BLVD PO BOX 1482, SALISBURY, NC 28145, United States","221 JIM SULLIVAN BLVD, SALISBURY, NC 28145",221,JIM SULLIVAN BLVD,221 JIM SULLIVAN BLVD,SALISBURY,28145,NC,United States
 "PO BOX 363, HEBRONVILLE, TX 78361,United States","HEBRONVILLE, TX 78361",,,,HEBRONVILLE,78361,TX,United States
@@ -183,4 +183,4 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "Berger Bldg 6 Hamlin Ln Dept RB08,MIDDLE ISLAND,NY,11953,US","Berger Bldg 6 Hamlin Ln Dept RB08,MIDDLE ISLAND,NY,11953,US",6,Hamlin Ln,Berger Bldg 6 Hamlin Ln Dept RB08,MIDDLE ISLAND,11953,NY,US
 "5524 Elmore Ave Bldg 266,PHILADELPHIA,PA,19146,US","5524 Elmore Ave Bldg 266,PHILADELPHIA,PA,19146,US",5524,Elmore Ave,5524 Elmore Ave Bldg 266,PHILADELPHIA,19146,PA,US
 "1172 Hudson Way Pl Bldg 3 Ste 530,LAKE OSWEGO,OR,97035,US","1172 Hudson Way Pl Bldg 3 Ste 530,LAKE OSWEGO,OR,97035,US",1172,Hudson Way Pl,1172 Hudson Way Pl Bldg 3 Ste 530,LAKE OSWEGO,97035,OR,US
-"For more information contact us: CJMcBride.org 251 943-1615 17644 County Road 26 Michigan Ave. P.O. Box 1227 Foley, AL 36536 Email: info@cjmcbride.org", "17644 County Road 26 Michigan Ave. P.O. Box 1227 Foley, AL 36536",26,Michigan Ave.,26 Michigan Ave.,Foley,36536,AL,
+"For more information contact us: CJMcBride.org 251 943-1615 17644 County Road 26 Michigan Ave. Foley, AL 36536 Email: info@cjmcbride.org", "17644 County Road 26 Michigan Ave. Foley, AL 36536",26,Michigan Ave.,26 Michigan Ave.,Foley,36536,AL,

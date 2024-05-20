@@ -12,6 +12,7 @@ nlp_address = spacy.load("output/models/model-best")
 
 @router.post("/extract_street/")
 async def extract_street(request: TextRequest):
+    print(request.text)
     doc = nlp_address(request.text)
     city = None
     state = None
@@ -30,6 +31,7 @@ async def extract_street(request: TextRequest):
         elif ent.label_ == 'ZIP_CODE':
             zipcode = ent.text
     if street_name or street_num:
+        print(city, state, street_name, street_num, zipcode)
         return {"City": city, "state": state, "Street_Name": street_name, "Street_Num": street_num, "zipcode": zipcode}
     else:
         raise HTTPException(status_code=404, detail="No street details found")
