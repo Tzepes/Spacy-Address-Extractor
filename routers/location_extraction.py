@@ -32,7 +32,7 @@ async def extract_gpe_org(request: TextRequest):
         elif entity.label_ == 'ORG':
             org.append(entity.text)
 
-    if request.domain:
+    if request.domain and org:
         domain = urlparse(request.domain).netloc
         sorted_ORGs_GPEs = sort_companies_and_locations(domain, org, gpe)
         return {"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs}

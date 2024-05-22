@@ -32,6 +32,6 @@ async def extract_street(request: TextRequest):
             zipcode = ent.text
     if street_name or street_num:
         print(city, state, street_name, street_num, zipcode)
-        return {"City": city, "state": state, "Street_Name": street_name, "Street_Num": street_num, "zipcode": zipcode}
+        return {"City": city, "State": state, "Street_Name": street_name, "Street_Num": street_num, "Zipcode": zipcode}
     else:
-        raise HTTPException(status_code=404, detail="No street details found")
+        return {"detail": "No street address found"}
