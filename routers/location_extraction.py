@@ -6,7 +6,7 @@ from utils.similarityScoring import sort_companies_and_locations
 from urllib.parse import urlparse
 
 
-router = APIRouter()
+router = APIRouter() 
 
 # Define data models for incoming requests
 class TextRequest(BaseModel):
@@ -25,7 +25,6 @@ async def extract_gpe_org(request: TextRequest):
     gpe = []
     org = []
     sorted_ORGs_GPEs = []
-
     for entity in doc.ents:
         if entity.label_ == 'GPE':
             gpe.append(entity.text)
@@ -34,7 +33,9 @@ async def extract_gpe_org(request: TextRequest):
 
     if request.domain and org:
         domain = urlparse(request.domain).netloc
-        sorted_ORGs_GPEs = sort_companies_and_locations(domain, org, gpe)
+        sorted_ORGs_GPEs, org, gpe = sort_companies_and_locations(domain, org, gpe)
+        print({"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs})
         return {"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs}
     else:
+        print({"GPE": gpe, "ORG": org})
         return {"GPE": gpe, "ORG": org}

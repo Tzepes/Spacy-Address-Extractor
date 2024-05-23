@@ -1,9 +1,13 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from urllib.parse import urlparse
 
 def sort_companies_and_locations(domain, org, gpe):
+    # Parse the domain
+    parsed_domain = urlparse(domain).netloc.split('.')[0]
+
     # Add domain to the org list
-    texts = [domain] + org
+    texts = [parsed_domain] + org
 
     # Vectorize the texts
     vectorizer = TfidfVectorizer().fit_transform(texts)
@@ -23,4 +27,4 @@ def sort_companies_and_locations(domain, org, gpe):
     # Combine sorted org and gpe into a list of strings
     sorted_companies_and_locations = [f"{o} {g}" for o, g in zip(sorted_org, sorted_gpe)]
 
-    return sorted_companies_and_locations
+    return sorted_companies_and_locations, org, gpe
