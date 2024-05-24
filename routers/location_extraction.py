@@ -2,6 +2,7 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import Optional
 import spacy
+from langdetect import detect
 from utils.similarityScoring import sort_companies_and_locations
 from urllib.parse import urlparse
 
@@ -13,15 +14,22 @@ class TextRequest(BaseModel):
     text: str
     domain: Optional[str] = None
 
-# Load the pre-trained model for GPE and ORG extraction
-nlp_gpe_org = spacy.load('en_core_web_trf')
+model_map = {
+    'en': 'en_core_web_trf',
+    'de': 'de_core_news_lg',
+}
 
 # todo: IF BIG COMPANY LIKE GOOGLE, FACEBOOK ETC. IGNORE THE GPE AND ORG EXTRACTION
 
 @router.post("/extract_gpe_org/")
 async def extract_gpe_org(request: TextRequest):
-    doc = nlp_gpe_org(request.text)
+    # Detect the language of the text
+    lang = detect(request.text)
+    print(lang)
+    nlp_gpe_org = spacy.load(model_map.get(lang, 'en_core_web_trf'))
 
+    doc = nlp_gpe_org(request.text)
+    print(doc.ents)
     gpe = []
     org = []
     sorted_ORGs_GPEs = []
@@ -34,8 +42,8 @@ async def extract_gpe_org(request: TextRequest):
     if request.domain and org:
         domain = urlparse(request.domain).netloc
         sorted_ORGs_GPEs, org, gpe = sort_companies_and_locations(domain, org, gpe)
-        print({"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs})
-        return {"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs}
+        print({"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs, "language": lang})
+        return {"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs, "language": lang}
     else:
-        print({"GPE": gpe, "ORG": org})
-        return {"GPE": gpe, "ORG": org}
+        print({"GPE": gpe, "ORG": org, "language": lang})
+        return {"GPE": gpe, "ORG": org, "language": lang}
