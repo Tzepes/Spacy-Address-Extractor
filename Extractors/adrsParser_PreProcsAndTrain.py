@@ -78,14 +78,14 @@ def remove_overlapping_spans(spans):
 
 
 #Load blank English model. This is needed for initializing a Document object for our training/test set.
-nlp = spacy.blank("en")
+nlp = spacy.blank("de")
 
 # Define custom entity tag list
 tag_list = ["StreetNumber", "StreetNameTag", "ZipCodeTag", "CityTag", "StateTag", "CountryTag"]
 
 # Read the entire dataset into pandas
 try:
-    df = pd.read_csv(filepath_or_buffer="datasets/extended_data.csv", sep=",", dtype=str, on_bad_lines='skip')
+    df = pd.read_csv(filepath_or_buffer="datasets/german_addressData.csv", sep=",", dtype=str, on_bad_lines='skip')
 except pd.errors.ParserError as e:
     print(f"Error parsing CSV: {e}")
     exit()
@@ -111,11 +111,11 @@ if not os.path.exists("./corpus/spacy-docbins"):
 
 # Get & Persist DocBin for training data
 doc_bin_train = get_doc_bin(training_data, nlp)
-doc_bin_train.to_disk("./corpus/spacy-docbins/train.spacy")
+doc_bin_train.to_disk("./corpus/spacy-docbins/trainDE.spacy")
 
 # Get & Persist DocBin for validation data
 doc_bin_test = get_doc_bin(validation_data, nlp)
-doc_bin_test.to_disk("./corpus/spacy-docbins/test.spacy")
+doc_bin_test.to_disk("./corpus/spacy-docbins/testDE.spacy")
 
 
 #Define custom entity tag list
