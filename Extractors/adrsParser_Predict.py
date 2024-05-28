@@ -1,15 +1,15 @@
 import spacy
 
-nlp=spacy.load("output/models/model-best")
+nlp=spacy.load("output/models_de/model-best")
 
-address=" airspaceconsulting@gmail.com Submit Thanks for submitting! Contact 2100 Palomar Airport Road 219, Carlsbad, CA, 92008 USA "
+address="Olgastraße 109 70180 Stuttgart  Tel  Fax "
 doc=nlp(address)
 ent_list=[(ent.text, ent.label_) for ent in doc.ents]
 # print("Address string -> "+address)
 # print("Parsed address -> "+str(ent_list))
 
 # # Loading Entity Ruler coupled NER model and checking prediction
-nlp=spacy.load("output/models/model-best")
+nlp=spacy.load("output/models_de/model-best")
 
 doc=nlp(address)
 

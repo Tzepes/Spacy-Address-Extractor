@@ -45,5 +45,5 @@ async def extract_gpe_org(request: TextRequest):
         print({"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs, "language": lang})
         return {"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs, "language": lang}
     else:
-        print({"GPE": gpe, "ORG": org, "language": lang})
-        return {"GPE": gpe, "ORG": org, "language": lang}
+        print({"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs, "language": lang})
+        return {"GPE": gpe, "ORG": org, "ORG_GPE_Sorted": sorted_ORGs_GPEs, "language": lang}

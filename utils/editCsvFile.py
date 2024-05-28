@@ -53,14 +53,20 @@ import pandas as pd
 #         f.write(f'"{row["Text"] if pd.notna(row["Text"]) else ""}|{row["Address"] if pd.notna(row["Address"]) else ""}",\n')
 
 # Read the CSV files into separate DataFrames
-df_extended = pd.read_csv('extended_data.csv')
-df_noise = pd.read_csv('text_noise_address.csv', on_bad_lines='skip')
+# df_extended = pd.read_csv('extended_data.csv')
+# df_noise = pd.read_csv('text_noise_address.csv', on_bad_lines='skip')
 
-# Add the 'Noise' column from df_noise to df_extended
-df_extended['Noise'] = df_noise['Noise']
+# # Add the 'Noise' column from df_noise to df_extended
+# df_extended['Noise'] = df_noise['Noise']
 
-# Fill in missing values in the 'Noise' column with a default value
-df_extended['Noise'] = df_extended['Noise'].fillna('')
+# # Fill in missing values in the 'Noise' column with a default value
+# df_extended['Noise'] = df_extended['Noise'].fillna('')
 
-# Write the modified DataFrame back to a CSV file
-df_extended.to_csv('extended_data.csv', index=False)
+# # Write the modified DataFrame back to a CSV file
+# df_extended.to_csv('extended_data.csv', index=False)
+
+# Read the CSV file into a DataFrame
+df = pd.read_csv('./datasets/german_addressData.csv')
+
+# Select the 'Text' column and write it to a new CSV file
+df['Text'].to_csv('text_only.csv', index=False)
