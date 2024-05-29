@@ -15,7 +15,7 @@ class TextRequest(BaseModel):
 country_model_map = {
     'DE': 'output/models_DE/model-best',
     'US': 'output/models_US/model-best',
-    'UK': 'output/models/model-best',
+    'UK': 'output/models_UK/model-best',
     'AU': 'output/models/model-best',
 }
 

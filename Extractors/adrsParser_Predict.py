@@ -2,14 +2,14 @@ import spacy
 
 nlp=spacy.load("output/models_de/model-best")
 
-address="Olgastraße 109 70180 Stuttgart  Tel  Fax "
+address="Our Site is operated by TidyWare UK Ltd, a company registered in England and Wales under number 06831241, whose registered office is at TidyWare UK Ltd, Edwinstowe House, Centre For Business Excellence, Edwinstowe NG21 9PR"
 doc=nlp(address)
 ent_list=[(ent.text, ent.label_) for ent in doc.ents]
 # print("Address string -> "+address)
 # print("Parsed address -> "+str(ent_list))
 
 # # Loading Entity Ruler coupled NER model and checking prediction
-nlp=spacy.load("output/models_de/model-best")
+nlp=spacy.load("output/models_uk/model-best")
 
 doc=nlp(address)
 

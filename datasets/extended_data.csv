@@ -5,7 +5,7 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "May 15 2024 Open House all day May 15 2024 Student Safety Committee Meeting 4 : 00 PM - 5 : 00 PM May 15 2024 LCAP PAC meeting 6 : 00 PM - 7 : 30 PM 351 S. Hudson Ave., Pasadena, CA 91101","351 S. Hudson Ave., Pasadena, CA 91101",351,S. Hudson Ave.,351 S. Hudson Ave.,Pasadena,91101,CA,
 "Get In Touch! 573-883-7097 Welcome Center 66 South Main Street Ste. Genevive, MO 63670 info@visitstegen.com","66 South Main Street Ste. Genevive, MO 63670",66,South Main Street,66 South Main Street,Ste. Genevive,63670,MO,
 "Connect with FLO 425-453-4005 1150 106th Ave NE Bellevue, WA 98004","1150 106th Ave NE Bellevue, WA 98004",1150,106th Ave NE,1150 106th Ave NE,Bellevue,98004,WA,
-"P O Box 482002, San Francisco, California, 94148 USA ","San Francisco, CA 94148","","","","San Francisco","94148","CA","USA"
+"P O Box 482002, San Francisco, California, 94148 USA","San Francisco, CA 94148","","","","San Francisco","94148","CA","USA"
 "PO BOX 3411 TELLURIDE, CO 81435 970.729.8080 INFO@SK4DESIGNS.COM","TELLURIDE, CO 81435",,,,TELLURIDE,81435,CO,
 "Reach Us Address 1610 Chiefs Way Wayne, Ne 68787 Contact 402 375-4715 info@seedsourceag.com Visit M-F: 8am 5pm","1610 Chiefs Way Wayne, Ne 68787",1610,Chiefs Way,1610 Chiefs Way,Wayne,68787,Ne,
 "Contact Mailing: PO BOX 3411 Telluride, CO 81432 Shipping: 295 Mahoney Drive, Unit K Telluride, CO 81432 970.729.8080 info@sk4designs.com","295 Mahoney Drive, Unit K Telluride, CO 81432",295,Mahoney Drive,295 Mahoney Drive,Telluride,81432,CO,
@@ -54,7 +54,7 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "Coastal Real Estate 678 Beachside Boulevard San Diego, CA 92101 619-555-6677 homes@coastalrealestate.com","678 Beachside Boulevard San Diego, CA 92101",678,Beachside Boulevard,678 Beachside Boulevard,San Diego,92101,CA,United States
 "Evergreen Forestry 12345 Timberland Drive Eugene, OR 97401 541-555-3344 info@evergreenforestry.com","12345 Timberland Drive Eugene, OR 97401",12345,Timberland Drive,12345 Timberland Drive,Eugene,97401,OR,United States
 "550 Cedar Avenue P.O. Box 550 Middlesex, NJ 08846","550 Cedar Avenue Middlesex, NJ 08846",550,Cedar Avenue,550 Cedar Avenue,Middlesex,08846,NJ,
-"P O Box 889622, Long Beach, California, USA ","Long Beach, CA 90808","","","","Long Beach","90808","CA","USA"
+"P O Box 889622, Long Beach, California, USA","Long Beach, CA 90808","","","","Long Beach","90808","CA","USA"
 "700 Blue Ridge Terrace Columbia SC 29203","700 Blue Ridge Terrace Columbia SC 29203",700,Blue Ridge Terrace,700 Blue Ridge Terrace,Columbia,29203,SC,
 "35 Mitchell Blvd. Suite 8 San Rafael, CA 94903","35 Mitchell Blvd. Suite 8 San Rafael, CA 94903",35,Mitchell Blvd.,35 Mitchell Blvd.,San Rafael,94903,CA,
 "655 US-1, Scarborough, ME 04074","655 US-1, Scarborough, ME 04074",655,US-1,655 US-1,Scarborough,04074,ME,
@@ -155,7 +155,7 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "14Th Floor, 21 West 5th St,,,10010,US","21 West 5th St, 14Th Floor, 10010, US",21,West 5th St,21 West 5th St, ,10010, ,US
 "763 Clark St,BRAINERD,MN,56401,US","763 Clark St, BRAINERD, MN, 56401, US",763,Clark St,763 Clark St,BRAINERD,56401,MN,US
 "146 Lakeview St,BOSTON,MA,02199,US","146 Lakeview St, BOSTON, MA, 02199, US",146,Lakeview St,146 Lakeview St,BOSTON,02199,MA,US
-"P O Box 992361, Anaheim, California, 92807 USA ","Anaheim, CA 92807","","","","Anaheim","92807","CA","USA"
+"P O Box 992361, Anaheim, California, 92807 USA","Anaheim, CA 92807","","","","Anaheim","92807","CA","USA"
 "383 Walker St,DENVER,CO,80206,US","383 Walker St, DENVER, CO, 80206, US",383,Walker St,383 Walker St,DENVER,80206,CO,US
 "53 C Nn Hwy S Fl 4,DARIEN,CT,06820,US","53 C Nn Hwy S Fl 4, DARIEN, CT, 06820, US",53 C,Nn Hwy S,53 C Nn Hwy S,DARIEN,06820,CT,US
 "492 Northwestern Hwy., Ste. 488,FARMINGTON HILLS,MI,48334,US","492 Northwestern Hwy., Ste. 488, FARMINGTON HILLS, MI, 48334, US",492,Northwestern Hwy.,492 Northwestern Hwy.,FARMINGTON HILLS,48334,MI,US
@@ -202,19 +202,19 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "2502 NW 53rd St Bldg C Ste 347,BELLEVUE,WA,98007,US","2502 NW 53rd St Bldg C Ste 347,BELLEVUE,WA,98007,US",2502,NW 53rd St,2502 NW 53rd St Bldg C Ste 347,BELLEVUE,98007,WA,US
 "Robert Koch Bldg 4223 4th Ave,DETROIT,MI,48202,US","Robert Koch Bldg 4223 4th Ave,DETROIT,MI,48202,US",4223,4th Ave,Robert Koch Bldg 4223 4th Ave,DETROIT,48202,MI,US
 "429 Larson Bldg,PORTLAND,OR,,US","429 Larson Bldg,PORTLAND,OR,,US",429,Larson Bldg,429 Larson Bldg,PORTLAND,,OR,US
-"4520 Mount Olive Highway, Bldg 5, Ste 3321,78759,US","4520 Mount Olive Highway, Bldg 5, Ste 3321,78759,US",4520,Mount Olive Highway,4520 Mount Olive Highway,,78759,,US,
+"4520 Mount Olive Highway, Bldg 5, Ste 3321,78759,US","4520 Mount Olive Highway, Bldg 5, Ste 3321,78759,US",4520,Mount Olive Highway,4520 Mount Olive Highway,,78759,,US
 "202 Sleepy Hollow Pkwy Bldg 2101 Ste 201,ATHENS,GA,30606,US","202 Sleepy Hollow Pkwy Bldg 2101 Ste 201,ATHENS,GA,30606,US",202,Sleepy Hollow Pkwy,202 Sleepy Hollow Pkwy Bldg 2101 Ste 201,ATHENS,30606,GA,US
 "Berger Bldg 6 Hamlin Ln Dept RB08,MIDDLE ISLAND,NY,11953,US","Berger Bldg 6 Hamlin Ln Dept RB08,MIDDLE ISLAND,NY,11953,US",6,Hamlin Ln,Berger Bldg 6 Hamlin Ln Dept RB08,MIDDLE ISLAND,11953,NY,US
 "5524 Elmore Ave Bldg 266,PHILADELPHIA,PA,19146,US","5524 Elmore Ave Bldg 266,PHILADELPHIA,PA,19146,US",5524,Elmore Ave,5524 Elmore Ave Bldg 266,PHILADELPHIA,19146,PA,US
 "1172 Hudson Way Pl Bldg 3 Ste 530,LAKE OSWEGO,OR,97035,US","1172 Hudson Way Pl Bldg 3 Ste 530,LAKE OSWEGO,OR,97035,US",1172,Hudson Way Pl,1172 Hudson Way Pl Bldg 3 Ste 530,LAKE OSWEGO,97035,OR,US
-"For more information contact us: CJMcBride.org 251 943-1615 17644 County Road 26 Michigan Ave. Foley, AL 36536 Email: info@cjmcbride.org", "17644 County Road 26 Michigan Ave. Foley, AL 36536",26,Michigan Ave.,26 Michigan Ave.,Foley,36536,AL,
-"Paper Co, 499 East Tioga Street, Philadelphia, PA, PA, 19134", "499 East Tioga Street, Philadelphia, PA, PA, 19134",499,East Tioga Street,499 East Tioga Street,Philadelphia,19134,PA,
-"© 2021 Pannier Graphics | 345 Oak Road Gibsonia, PA | 724.265.4900 | All Rights Reserved", "345 Oak Road Gibsonia, PA",345,Oak Road,345 Oak Road,Gibsonia,,PA,
+"For more information contact us: CJMcBride.org 251 943-1615 17644 County Road 26 Michigan Ave. Foley, AL 36536 Email: info@cjmcbride.org","17644 County Road 26 Michigan Ave. Foley, AL 36536",26,Michigan Ave.,26 Michigan Ave.,Foley,36536,AL,
+"Paper Co, 499 East Tioga Street, Philadelphia, PA, PA, 19134","499 East Tioga Street, Philadelphia, PA, PA, 19134",499,East Tioga Street,499 East Tioga Street,Philadelphia,19134,PA,
+"© 2021 Pannier Graphics | 345 Oak Road Gibsonia, PA | 724.265.4900 | All Rights Reserved","345 Oak Road Gibsonia, PA",345,Oak Road,345 Oak Road,Gibsonia,,PA,
 "11550 Poema Place, Unit 101 Chatsworth, CA 91311 Mobile: 805 796-4483","11550 Poema Place, Chatsworth, CA 91311","11550","Poema Place","11550 Poema Place","Chatsworth","91311","CA",""
 "100 Main Street, Apt 5A Springfield, IL 62701 Mobile: 555 123-4567","100 Main Street, Springfield, IL 62701","100","Main Street","100 Main Street","Springfield","62701","IL",""
 "300 Oak Drive, Suite 15 Atlanta, GA 30301 Mobile: 555 345-6789","300 Oak Drive, Atlanta, GA 30301","300","Oak Drive","300 Oak Drive","Atlanta","30301","GA",""
 "400 Pine Avenue, Unit B3 Miami, FL 33101 Mobile: 555 456-7890","400 Pine Avenue, Miami, FL 33101","400","Pine Avenue","400 Pine Avenue","Miami","33101","FL",""
-"852 East Olson St Blair, WI 54616", "", "852", "East Olson St", "852 East Olson St", "Blair", "54616", "WI", ""
+"852 East Olson St Blair, WI 54616","","852","East Olson St","852 East Olson St","Blair","54616","WI",""
 "14529 S Bascom Ave, Los Gatos, CA 95032, United States","14529 S Bascom Ave, Los Gatos, CA 95032","14529","S Bascom Ave","14529 S Bascom Ave","Los Gatos","95032","CA","United States"
 "23450 N Clark St, Chicago, IL 60614, United States","23450 N Clark St, Chicago, IL 60614","23450","N Clark St","23450 N Clark St","Chicago","60614","IL","United States"
 "65789 E Broadway Blvd, Tucson, AZ 85710, United States","65789 E Broadway Blvd, Tucson, AZ 85710","65789","E Broadway Blvd","65789 E Broadway Blvd","Tucson","85710","AZ","United States"
@@ -236,6 +236,45 @@ Text,Address,Street_Number,Street_Name,Street_Address,City,Zip_Code,State,Countr
 "32050 Alvarado Blvd, Suite 190, Union City, CA 94587, United States","32050 Alvarado Blvd, Suite 190, Union City, CA 94587","32050","Alvarado Blvd","32050 Alvarado Blvd","Union City","94587","CA","United States"
 "87420 Pacific Coast Hwy, Suite 260, Malibu, CA 90265, United States","87420 Pacific Coast Hwy, Suite 260, Malibu, CA 90265","87420","Pacific Coast Hwy","87420 Pacific Coast Hwy","Malibu","90265","CA","United States"
 "P O Box 563981, San Diego, California, USA 92156","San Diego, CA 92156","","","","San Diego","92156","CA","USA"
-
-"P O Box 330200, Fresno, California, 93729 USA ","Fresno, CA 93729","","","","Fresno","93729","CA","USA"
+"P O Box 330200, Fresno, California, 93729 USA","Fresno, CA 93729","","","","Fresno","93729","CA","USA"
+"Greenwood Community Center 4567 Elm Street Dallas, TX 75201 United States","4567 Elm Street Dallas, TX 75201",4567,Elm Street,4567 Elm Street,Dallas,75201,TX,United States
+"Rosewood Dental Clinic 897 Pine Avenue Boston, MA 02110 USA","897 Pine Avenue Boston, MA 02110",897,Pine Avenue,897 Pine Avenue,Boston,02110,MA,USA
+"Sunset Elementary School 1234 Maple Drive Seattle, WA 98101 United States","1234 Maple Drive Seattle, WA 98101",1234,Maple Drive,1234 Maple Drive,Seattle,98101,WA,United States
+"Northside Veterinary Clinic 7890 Oak Street Denver, CO 80203 USA","7890 Oak Street Denver, CO 80203",7890,Oak Street,7890 Oak Street,Denver,80203,CO,USA
+"Riverside Bookstore 6789 Birch Road Miami, FL 33101 United States","6789 Birch Road Miami, FL 33101",6789,Birch Road,6789 Birch Road,Miami,33101,FL,United States
+"Lakeview Apartments 345 Cedar Lane Austin, TX 73301 USA","345 Cedar Lane Austin, TX 73301",345,Cedar Lane,345 Cedar Lane,Austin,73301,TX,USA
+"Mountain Ridge High School 2345 Spruce Street Phoenix, AZ 85001 United States","2345 Spruce Street Phoenix, AZ 85001",2345,Spruce Street,2345 Spruce Street,Phoenix,85001,AZ,United States
+"Harvest Market 5678 Willow Avenue Chicago, IL 60601 USA","5678 Willow Avenue Chicago, IL 60601",5678,Willow Avenue,5678 Willow Avenue,Chicago,60601,IL,USA
+"Bay Area Fitness Center 8901 Redwood Drive San Francisco, CA 94101 United States","8901 Redwood Drive San Francisco, CA 94101",8901,Redwood Drive,8901 Redwood Drive,San Francisco,94101,CA,United States
+"Westside Library 3456 Cypress Street Los Angeles, CA 90001 USA","3456 Cypress Street Los Angeles, CA 90001",3456,Cypress Street,3456 Cypress Street,Los Angeles,90001,CA,USA
+"Downtown Medical Center 678 Pearl Street New York, NY 10001 United States","678 Pearl Street New York, NY 10001",678,Pearl Street,678 Pearl Street,New York,10001,NY,United States
+"Eastside Cafe 123 Oakwood Avenue Orlando, FL 32801 USA","123 Oakwood Avenue Orlando, FL 32801",123,Oakwood Avenue,123 Oakwood Avenue,Orlando,32801,FL,USA
+"Silver Lake Park 456 Pinehurst Road Charlotte, NC 28201 United States","456 Pinehurst Road Charlotte, NC 28201",456,Pinehurst Road,456 Pinehurst Road,Charlotte,28201,NC,United States
+"Uptown Theater 789 Cedar Street Nashville, TN 37201 USA","789 Cedar Street Nashville, TN 37201",789,Cedar Street,789 Cedar Street,Nashville,37201,TN,USA
+"Hilltop Bakery 234 Elmwood Drive Portland, OR 97201 United States","234 Elmwood Drive Portland, OR 97201",234,Elmwood Drive,234 Elmwood Drive,Portland,97201,OR,United States
+"Oceanview Hotel 567 Beach Avenue San Diego, CA 92101 USA","567 Beach Avenue San Diego, CA 92101",567,Beach Avenue,567 Beach Avenue,San Diego,92101,CA,USA
+"Green Valley Hospital 890 Maple Street Las Vegas, NV 89101 United States","890 Maple Street Las Vegas, NV 89101",890,Maple Street,890 Maple Street,Las Vegas,89101,NV,United States
+"Central Plaza 345 Pine Grove Lane Atlanta, GA 30301 USA","345 Pine Grove Lane Atlanta, GA 30301",345,Pine Grove Lane,345 Pine Grove Lane,Atlanta,30301,GA,USA
+"Highland Park 678 Birch Street Minneapolis, MN 55401 United States","678 Birch Street Minneapolis, MN 55401",678,Birch Street,678 Birch Street,Minneapolis,55401,MN,United States
+"Sunshine Daycare 123 Willow Drive Tampa, FL 33601 USA","123 Willow Drive Tampa, FL 33601",123,Willow Drive,123 Willow Drive,Tampa,33601,FL,USA
+"Green Valley Farms 123 Elm Street, Springfield, Illinois 62704","123 Elm Street, Springfield, Illinois 62704",123,Elm Street,123 Elm Street,Springfield,62704,Illinois,United States
+"Tech Innovators Inc. 456 Oak Avenue, Austin, Texas 73301","456 Oak Avenue, Austin, Texas 73301",456,Oak Avenue,456 Oak Avenue,Austin,73301,Texas,United States
+"Sunshine Bakery 789 Maple Road, Boulder, Colorado 80301","789 Maple Road, Boulder, Colorado 80301",789,Maple Road,789 Maple Road,Boulder,80301,Colorado,United States
+"City Lights Cinema 321 Pine Street, Seattle, Washington 98101","321 Pine Street, Seattle, Washington 98101",321,Pine Street,321 Pine Street,Seattle,98101,Washington,United States
+"Mountain View Clinic 654 Cedar Lane, Denver, Colorado 80220","654 Cedar Lane, Denver, Colorado 80220",654,Cedar Lane,654 Cedar Lane,Denver,80220,Colorado,United States
+"Blue Ocean Resort 987 Ocean Drive, Miami, Florida 33139","987 Ocean Drive, Miami, Florida 33139",987,Ocean Drive,987 Ocean Drive,Miami,33139,Florida,United States
+"Golden Gate Grocers 159 Bridge Street, San Francisco, California 94111","159 Bridge Street, San Francisco, California 94111",159,Bridge Street,159 Bridge Street,San Francisco,94111,California,United States
+"Redwood Library 246 Forest Avenue, Redwood City, California 94063","246 Forest Avenue, Redwood City, California 94063",246,Forest Avenue,246 Forest Avenue,Redwood City,94063,California,United States
+"Riverbend Café 357 River Road, Portland, Oregon 97201","357 River Road, Portland, Oregon 97201",357,River Road,357 River Road,Portland,97201,Oregon,United States
+"Galaxy Tech Hub 468 Star Boulevard, Los Angeles, California 90001","468 Star Boulevard, Los Angeles, California 90001",468,Star Boulevard,468 Star Boulevard,Los Angeles,90001,California,United States
+"Sunset Grill 579 Sunset Avenue, Santa Monica, California 90401","579 Sunset Avenue, Santa Monica, California 90401",579,Sunset Avenue,579 Sunset Avenue,Santa Monica,90401,California,United States
+"Heritage Museum 680 History Way, Boston, Massachusetts 02115","680 History Way, Boston, Massachusetts 02115",680,History Way,680 History Way,Boston,02115,Massachusetts,United States
+"Silver Lake Winery 791 Vineyard Lane, Napa, California 94558","791 Vineyard Lane, Napa, California 94558",791,Vineyard Lane,791 Vineyard Lane,Napa,94558,California,United States
+"Emerald Gardens 802 Flower Street, Orlando, Florida 32801","802 Flower Street, Orlando, Florida 32801",802,Flower Street,802 Flower Street,Orlando,32801,Florida,United States
+"Highland Park 913 Highland Avenue, Chicago, Illinois 60601","913 Highland Avenue, Chicago, Illinois 60601",913,Highland Avenue,913 Highland Avenue,Chicago,60601,Illinois,United States
+"Lakeview Apartments 1024 Lake Shore Drive, Cleveland, Ohio 44114","1024 Lake Shore Drive, Cleveland, Ohio 44114",1024,Lake Shore Drive,1024 Lake Shore Drive,Cleveland,44114,Ohio,United States
+"Broadway Theater 1135 Broadway Street, New York, New York 10001","1135 Broadway Street, New York, New York 10001",1135,Broadway Street,1135 Broadway Street,New York,10001,New York,United States
+"Harmony Health Center 1246 Harmony Road, Raleigh, North Carolina 27601","1246 Harmony Road, Raleigh, North Carolina 27601",1246,Harmony Road,1246 Harmony Road,Raleigh,27601,North Carolina,United States
+"Golden Sands Hotel 1357 Beach Avenue, Honolulu, Hawaii 96815","1357 Beach Avenue, Honolulu, Hawaii 96815",1357,Beach Avenue,1357 Beach Avenue,Honolulu,96815,Hawaii,United States
+"Capitol Hill Bookstore 1468 Capitol Street, Washington, D.C. 20001","1468 Capitol Street, Washington, D.C. 20001",1468,Capitol Street,1468 Capitol Street,Washington,20001,D.C.,United States
 

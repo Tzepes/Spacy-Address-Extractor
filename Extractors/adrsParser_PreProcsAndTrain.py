@@ -41,6 +41,8 @@ def create_entity_spans(df,tag_list):
     df["StreetNameTag"] = df.apply(lambda row: get_address_span(address=row['Address'], address_component=row['Street_Name'], label='STREET_NAME'), axis=1)
     df["CityTag"] = df.apply(lambda row: get_address_span(address=row['Address'], address_component=row['City'], label='CITY'), axis=1)
     df["ZipCodeTag"] = df.apply(lambda row: get_address_span(address=row['Address'], address_component=row['Zip_Code'], label='ZIP_CODE'), axis=1)
+    # df["BZipCodeTag"] = df.apply(lambda row: get_address_span(address=row['Address'], address_component=row['B-Zip_Code'], label='B-ZIP_CODE'), axis=1)
+    # df["IZipCodeTag"] = df.apply(lambda row: get_address_span(address=row['Address'], address_component=row['I-Zip_Code'], label='I-ZIP_CODE'), axis=1)
     df["StateTag"] = df.apply(lambda row: get_address_span(address=row['Address'], address_component=row['State'], label='STATE'), axis=1)
     df["CountryTag"] = df.apply(lambda row: get_address_span(address=row['Address'], address_component=row['Country'], label='COUNTRY'), axis=1)
     df['EmptySpan'] = df.apply(lambda x: [], axis=1)
@@ -85,7 +87,7 @@ tag_list = ["StreetNumber", "StreetNameTag", "ZipCodeTag", "CityTag", "StateTag"
 
 # Read the entire dataset into pandas
 try:
-    df = pd.read_csv(filepath_or_buffer="datasets/extended_data.csv", sep=",", dtype=str, on_bad_lines='skip')
+    df = pd.read_csv(filepath_or_buffer="datasets/DRP_randomized_uk_address_dataset.csv", sep=",", dtype=str, on_bad_lines='skip')
 except pd.errors.ParserError as e:
     print(f"Error parsing CSV: {e}")
     exit()
@@ -111,11 +113,11 @@ if not os.path.exists("./corpus/spacy-docbins"):
 
 # Get & Persist DocBin for training data
 doc_bin_train = get_doc_bin(training_data, nlp)
-doc_bin_train.to_disk("./corpus/spacy-docbins/trainUS.spacy")
+doc_bin_train.to_disk("./corpus/spacy-docbins/trainUK.spacy")
 
 # Get & Persist DocBin for validation data
 doc_bin_test = get_doc_bin(validation_data, nlp)
-doc_bin_test.to_disk("./corpus/spacy-docbins/testUS.spacy")
+doc_bin_test.to_disk("./corpus/spacy-docbins/testUK.spacy")
 
 
 #Define custom entity tag list
