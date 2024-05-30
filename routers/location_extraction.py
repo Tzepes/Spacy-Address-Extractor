@@ -34,7 +34,7 @@ async def extract_gpe_org(request: TextRequest):
     org = []
     sorted_ORGs_GPEs = []
     for entity in doc.ents:
-        if entity.label_ == 'GPE':
+        if entity.label_ == 'GPE' or entity.label_ == 'LOC':
             gpe.append(entity.text)
         elif entity.label_ == 'ORG':
             org.append(entity.text)
