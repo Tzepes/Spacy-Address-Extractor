@@ -13,10 +13,11 @@ class TextRequest(BaseModel):
 # Assuming you're running this from the root of your project where main.py is, adjust the path like this:
 
 country_model_map = {
-    'DE': 'output/models_DE/model-best',
-    'US': 'output/models_US/model-best',
-    'UK': 'output/models_UK/model-best',
-    'AU': 'output/models/model-best',
+    'DE': 'output/models_de/model-best',
+    'US': 'output/models_us/model-best',
+    'UK': 'output/models_uk/model-best',
+    'GB': 'output/models_uk/model-best',
+    'AU': 'output/models_au/model-best',
 }
 
 @router.post("/extract_street/")
@@ -36,6 +37,7 @@ async def extract_street(request: TextRequest):
     nlp_address = spacy.load(model_path)
 
     print(country)
+    print('processing text: ', request.text)
 
     doc = nlp_address(request.text)
     city = None
@@ -55,7 +57,7 @@ async def extract_street(request: TextRequest):
         elif ent.label_ == 'ZIP_CODE':
             zipcode = ent.text
     if street_name or street_num:
-        print(city, state, street_name, street_num, zipcode)
+        print("City:", city, "| State:", state, "| Street_Name:", street_name, "| Street_Num:", street_num, "| Zipcode:", zipcode)
         return {"City": city, "State": state, "Street_Name": street_name, "Street_Num": street_num, "Zipcode": zipcode}
     else:
         return {"detail": "No street address found"}

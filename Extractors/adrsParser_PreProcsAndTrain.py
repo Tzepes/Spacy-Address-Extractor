@@ -87,7 +87,7 @@ tag_list = ["StreetNumber", "StreetNameTag", "ZipCodeTag", "CityTag", "StateTag"
 
 # Read the entire dataset into pandas
 try:
-    df = pd.read_csv(filepath_or_buffer="datasets/randomized_us_address_dataset.csv", sep=",", dtype=str, on_bad_lines='skip')
+    df = pd.read_csv(filepath_or_buffer="datasets/australian_addresses.csv", sep=",", dtype=str, on_bad_lines='skip')
 except pd.errors.ParserError as e:
     print(f"Error parsing CSV: {e}")
     exit()
@@ -113,11 +113,11 @@ if not os.path.exists("./corpus/spacy-docbins"):
 
 # Get & Persist DocBin for training data
 doc_bin_train = get_doc_bin(training_data, nlp)
-doc_bin_train.to_disk("./corpus/spacy-docbins/trainUS.spacy")
+doc_bin_train.to_disk("./corpus/spacy-docbins/trainAU.spacy")
 
 # Get & Persist DocBin for validation data
 doc_bin_test = get_doc_bin(validation_data, nlp)
-doc_bin_test.to_disk("./corpus/spacy-docbins/testUS.spacy")
+doc_bin_test.to_disk("./corpus/spacy-docbins/testAU.spacy")
 
 
 #Define custom entity tag list
