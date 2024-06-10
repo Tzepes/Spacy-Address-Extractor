@@ -47,11 +47,11 @@ async def extract_street(request: TextRequest):
     zipcode = None
     for ent in doc.ents:
         if ent.label_ == 'CITY':
-            city = ent.text
+            city = ent.text.title()
         elif ent.label_ == 'STATE':
-            state = ent.text
+            state = ent.text.title()
         elif ent.label_ == 'STREET_NAME':
-            street_name = ent.text
+            street_name = ent.text.title()
         elif ent.label_ == 'STREET_NUM':
             street_num = ent.text
         elif ent.label_ == 'ZIP_CODE':
